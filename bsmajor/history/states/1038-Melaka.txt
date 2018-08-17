@@ -1,0 +1,21 @@
+state={
+	id=1038
+	name="STATE_1038"
+
+	history={
+		owner = MAL
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MAL
+
+	}
+
+	provinces={
+		4412 4424 7427 
+	}
+	manpower=140300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

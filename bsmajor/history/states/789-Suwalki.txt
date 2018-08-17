@@ -1,0 +1,22 @@
+state={
+	id=789
+	name="STATE_789"
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = POL
+		add_core_of = BLR
+
+	}
+
+	provinces={
+		400 3254 
+	}
+	manpower=4500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

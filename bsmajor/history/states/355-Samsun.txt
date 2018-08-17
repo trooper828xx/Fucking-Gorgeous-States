@@ -1,0 +1,33 @@
+
+state={
+	id=355
+	name="STATE_355"
+
+	history={
+		owner = TUR
+		victory_points = {
+			9932 3 
+		}
+		buildings = {
+			infrastructure = 3
+			9932 = {
+				naval_base = 2
+
+			}
+			11894 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = TUR
+
+	}
+
+	provinces={
+		933 960 975 3935 3965 3979 9900 9915 9932 11881 11894 
+	}
+	manpower=1151863
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

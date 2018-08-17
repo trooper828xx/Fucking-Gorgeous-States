@@ -1,0 +1,22 @@
+
+state={
+	id=758
+	name="STATE_758"
+
+	history={
+		owner = TIB
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TIB
+
+	}
+
+	provinces={
+		1961 1991 5094 8029 10802 12784 12801 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

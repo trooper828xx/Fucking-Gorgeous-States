@@ -1,0 +1,28 @@
+state={
+	id=826
+	name="STATE_826"
+
+	history={
+		owner = BUL
+		victory_points = {
+			9783 5 
+		}
+		buildings = {
+			infrastructure = 4
+			9902 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = BUL
+
+	}
+
+	provinces={
+		9888 9902 
+	}
+	manpower=72044
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

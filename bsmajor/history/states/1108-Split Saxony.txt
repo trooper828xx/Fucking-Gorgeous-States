@@ -1,0 +1,39 @@
+state={
+	id=1108
+	name="STATE_1108"
+	resources={
+		steel=23.000
+	}
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 4
+
+		}
+		victory_points = {
+			3535 5 
+		}
+		add_core_of = GER
+		add_core_of = SAX
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 2
+				arms_factory = 3
+				industrial_complex = 7
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3535 6559 9441 9471 11481 
+	}
+	manpower=3556521
+	buildings_max_level_factor=1.000
+	state_category=city
+}

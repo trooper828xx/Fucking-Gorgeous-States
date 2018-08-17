@@ -1,0 +1,23 @@
+state={
+	id=808
+	name="STATE_808"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = SVN
+		add_core_of = YUG
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		13276 
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

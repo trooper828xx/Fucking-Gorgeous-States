@@ -1,0 +1,16 @@
+state={
+	id=1153
+	name="STATE_1153"
+	
+	history = {
+		owner = FRA
+		add_core_of = LAO
+	}
+
+	provinces={
+		1592 
+	}
+	manpower=125572
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

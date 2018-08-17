@@ -1,0 +1,36 @@
+
+state={
+	id=408
+	name="STATE_408"
+	resources={
+		chromium=20.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			957 15 
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			air_base = 5
+			957 = {
+				naval_base = 8
+				coastal_bunker = 3
+
+			}
+
+		}
+		add_core_of = SOV
+		add_core_of = RUS
+
+	}
+
+	provinces={
+		810 957 3787 3843 3977 6684 6838 6961 6989 9762 9895 9926 11750 11879 
+	}
+	manpower=421235
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,23 @@
+state={
+	id=862
+	name="STATE_862"
+
+	impassable = yes
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = TSD
+
+	}
+
+	provinces={
+		13247 13249 13250 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

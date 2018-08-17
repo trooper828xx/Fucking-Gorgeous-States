@@ -1,0 +1,21 @@
+state={
+	id=1039
+	name="STATE_1039"
+
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1277 7463 12168 
+	}
+	manpower=530300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

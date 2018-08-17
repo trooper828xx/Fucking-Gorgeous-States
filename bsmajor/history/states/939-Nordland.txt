@@ -1,0 +1,27 @@
+state={
+	id=939
+	name="STATE_939"
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 3
+			192 = {
+				naval_base = 3
+
+			}
+		}
+		add_core_of = NOR
+
+		victory_points = {
+			192 1 
+		}
+	}
+
+	provinces={
+		38 173 192 3034 3048 3088 3126 3132 6071 6111 6187 6214 9126 9208 
+	}
+	manpower=70010
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

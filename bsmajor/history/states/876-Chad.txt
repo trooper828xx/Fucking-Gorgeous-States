@@ -1,0 +1,24 @@
+state={
+	id=876
+	name="STATE_876"
+
+	history={
+		owner = FRA
+		victory_points = {
+			2081 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = TSD
+
+	}
+
+	provinces={
+		1473 1883 2081 3123 3181 4897 4978 7919 9152 13241 
+	}
+	manpower=200200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

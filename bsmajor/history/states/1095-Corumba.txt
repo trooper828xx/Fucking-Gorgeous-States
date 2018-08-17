@@ -1,0 +1,19 @@
+state={
+	id=1095
+	name="STATE_1095"
+
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BOL
+	}
+
+	provinces={
+		2142 
+	}
+	manpower=32300
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

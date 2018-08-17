@@ -1,0 +1,30 @@
+state={
+	id=1019
+	name="STATE_1019"
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = GER
+		add_core_of = PRS
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 1
+				industrial_complex = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3283 3510 6462 9470 
+	}
+	manpower=1401211
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

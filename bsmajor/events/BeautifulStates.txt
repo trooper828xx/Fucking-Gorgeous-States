@@ -1,0 +1,264 @@
+﻿
+add_namespace = bs
+
+country_event = { #Burma seperate from India
+	id = bs.2
+	title = bs.2.t
+	desc = bs.2.d
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1}
+	picture = GFX_report_event_separate_burma
+	
+	trigger = {
+		TAG = ENG
+	    288 = { is_owned_by = RAJ }
+		640 = { is_owned_by = RAJ }
+		1015 = { is_owned_by = RAJ }
+		1016 = { is_owned_by = RAJ }
+		country_exists = ENG
+		country_exists = RAJ
+		date > 1937.4.12
+		NOT = { country_exists = BUR }
+		NOT = {
+		    OR = {
+		        has_global_flag = BUR_separated
+				has_global_flag = BUR_remained_india
+			}
+		}
+	}	
+	
+	option = { #Agree
+		name = bs.2.a
+		custom_effect_tooltip = bs_burma_seperate
+		ai_chance = {
+			factor = 50
+		}
+
+		hidden_effect = {
+		    set_global_flag = BUR_separated
+			288 = {
+				if = {
+					limit = { is_owned_by = RAJ }
+				BUR = { transfer_state = 288 }
+				}
+			}
+			640 = {
+				if = {
+					limit = { is_owned_by = RAJ }
+				    BUR = { transfer_state = 640 }
+				}
+		    }
+			1015 = {
+				if = {
+					limit = { is_owned_by = RAJ }
+				    BUR = { transfer_state = 1015 }
+				}
+		    }
+			1016 = {
+				if = {
+					limit = { is_owned_by = RAJ }
+				    BUR = { transfer_state = 1016 }
+				}
+		    }
+		    if = {
+			    limit = {
+				    has_dlc = "Together for Victory"
+			    }
+			    set_autonomy = {
+				    target = BUR
+				    autonomous_state = autonomy_colony
+				    freedom_level = 0.2
+			    }
+			    else = {
+				    puppet = BUR
+			    }
+		    }
+		    BUR = {
+		        set_politics = {
+	                parties = {
+		                democratic = { 
+			                popularity = 10
+		                }
+		                communism = {
+			                popularity = 20
+		                }
+		                neutrality = {
+			                popularity = 70
+		                }
+	                }
+	                ruling_party = neutrality
+	                last_election = "1936.1.1"
+	                election_frequency = 50
+          	        elections_allowed = no
+                }
+			
+		        create_country_leader = {
+	                name = "Sir Archibald Douglas Cochrane"
+	                desc = ""
+	                picture = "Portrait_Burma_Archibald.dds"
+                  	expire = "1953.3.1"
+	                ideology = despotism
+	                traits = {
+		
+	                }
+                }
+		    }
+		}
+	}
+	option = { #reject
+		name = bs.2.b
+		ai_chance = {
+			factor = 5
+		}
+
+		hidden_effect = {
+		    set_global_flag = BUR_remained_india
+		}
+	}
+}
+
+country_event = { #Lituania capital move
+	id = bs.3
+	title = bs.3.t
+	desc = bs.3.d
+	picture = GFX_report_event_vilnius_move
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	
+	trigger = {
+		tag = LIT
+		96 = {
+			AND = {
+				is_owned_by = LIT
+				if = {
+					limit = { 
+						NOT = { is_owned_by = POL }
+						LIT = { has_war = no }
+					}
+				}
+			}
+		}
+	}
+	
+	option = { #Move to Vilnius
+	    name = bs.3.a
+		ai_chance = {
+			factor = 50
+		}
+
+		96 = {
+			if = {
+				limit = { is_owned_by = LIT }
+				LIT = { set_capital = 96 }
+			}
+		}
+		set_global_flag = LIT_transfer_capital
+		set_province_name = { id = 3320 name = "Vilnius"}
+		96 = { set_state_name = "Vilnius" }
+	}
+	option = { #Nothing
+	    name = bs.3.b
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+country_event = {   #Vilnius to Wilno
+	id = bs.5
+	title = bs.5.t
+	desc = bs.5.d
+
+	hidden = yes
+
+	trigger = {
+		POL = {
+			owns_state = 863
+		}
+		has_global_flag = LIT_transfer_capital
+	}
+
+	mean_time_to_happen = { days = 2 }
+
+	option = {
+		name = bs.5.a
+		ai_chance = {
+			base = 100
+		}
+		reset_province_name = 3320
+		96 = { reset_state_name = yes }
+		clr_global_flag = LIT_transfer_capital
+	}
+}
+
+news_event = {                         #Pope dead
+	id = bs.100
+	title = bs.100.t
+	desc = bs.100.d
+	picture = GFX_news_event_pope_died
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = VCT
+		date > 1939.2.9
+	}	
+	
+	option = {
+		name = bs.100.a
+		trigger = {
+			NOT = {
+				TAG = VCT
+			}
+		}
+	}
+	option = {
+		name = bs.100.b
+		trigger = { TAG = VCT }
+		hidden_effect = {
+		    kill_country_leader = yes
+			create_country_leader = {
+		        name = "Pope Pius XII"
+		        desc = ""
+		        picture = "Portrait_Vatican_PiusXII.dds"
+		        expire = "1985.10.9"
+		        ideology = despotism
+		        traits = {
+			        #
+		        }
+	        }
+		}
+	}
+}
+
+country_event = {   #Karelo-Finnish SSR core on West Karelia 
+	id = bs.200
+	title = bs.200.t
+	desc = bs.200.d
+
+	hidden = yes
+
+	trigger = {
+		SOV = {
+			owns_state = 146
+			owns_state = 147
+		}
+		has_global_flag = KAR_core_of_west_karelia
+	}
+
+	mean_time_to_happen = { days = 2 }
+
+	option = {
+		name = bs.200.a
+		ai_chance = {
+			base = 100
+		}
+
+		KAR = { 
+			transfer_state = 146
+			add_state_core = 147
+		}
+		set_global_flag = KAR_core_of_west_karelia
+	}
+}

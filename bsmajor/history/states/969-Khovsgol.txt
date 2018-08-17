@@ -1,0 +1,21 @@
+state={
+	id=969
+	name="STATE_969"
+
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = MON
+
+	}
+
+	provinces={
+		1689 1791 1834 4882 7676 7717 12579 12649 
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

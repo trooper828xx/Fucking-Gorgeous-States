@@ -1,0 +1,31 @@
+state={
+	id=835
+	name="STATE_835"
+
+	history={
+		owner = FRA
+		victory_points = {
+			9434 5 
+		}
+		victory_points = {
+			11563 5 
+		}
+		buildings = {
+			infrastructure = 7
+			485 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = FRA
+
+	}
+
+	provinces={
+		485 6569 9434 11563 
+	}
+	manpower=710100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

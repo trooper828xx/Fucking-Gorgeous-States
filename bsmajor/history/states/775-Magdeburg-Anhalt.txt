@@ -1,0 +1,27 @@
+state={
+	id=775
+	name="STATE_775"
+
+	history={
+		owner = GER
+		victory_points = {
+			3522 5 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = GER
+		add_core_of = PRS
+
+	}
+
+	provinces={
+		3522 6487 9238 9375 9560 11359 11468 11545 
+	}
+	manpower=1710004
+	buildings_max_level_factor=1.000
+	state_category=town
+}

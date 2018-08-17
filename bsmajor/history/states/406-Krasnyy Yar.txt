@@ -1,0 +1,23 @@
+
+state={
+	id=406
+	name="STATE_406"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = KAZ
+
+	}
+
+	provinces={
+		464 477 615 3459 3622 6498 6514 6523 9469 11578 
+	}
+	manpower=73450
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

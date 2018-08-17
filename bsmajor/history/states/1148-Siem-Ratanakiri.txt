@@ -1,0 +1,20 @@
+state={
+	id=1148
+	name="STATE_1148"
+
+	resources = {
+		rubber = 4
+	}
+
+	history = {
+		owner = FRA
+		add_core_of = CAM
+	}
+
+	provinces={
+		4596 12167 
+	}
+	manpower=354123
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

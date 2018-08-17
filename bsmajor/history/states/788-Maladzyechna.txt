@@ -1,0 +1,23 @@
+state={
+	id=788
+	name="STATE_788"
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 5
+			air_base = 5
+
+		}
+		add_core_of = POL
+		add_core_of = BLR
+
+	}
+
+	provinces={
+		233 277 358 406 6340 9341 11391 13261 
+	}
+	manpower=413000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

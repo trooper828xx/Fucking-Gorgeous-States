@@ -1,0 +1,29 @@
+state={
+	id=770
+	name="STATE_770"
+
+	history={
+		owner = GER
+		victory_points = {
+			11435 5 
+		}
+		buildings = {
+			infrastructure = 7
+
+		}
+		add_core_of = GER
+		set_demilitarized_zone = yes
+		1936.3.7 = {
+			set_demilitarized_zone = no
+
+		}
+
+	}
+
+	provinces={
+		11435 
+	}
+	manpower=100304
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

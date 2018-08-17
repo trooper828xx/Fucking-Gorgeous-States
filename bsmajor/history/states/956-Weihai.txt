@@ -1,0 +1,35 @@
+state={
+	id=956
+	name="STATE_956"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			13282 5 
+		}
+		buildings = {
+			infrastructure = 6
+			4205 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+		1938.10.25 = {
+			controller = JAP
+
+		}
+
+	}
+
+	provinces={
+		4205 13282 
+	}
+	manpower=4031000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

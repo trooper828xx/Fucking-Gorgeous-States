@@ -1,0 +1,23 @@
+state={
+	id=806
+	name="STATE_806"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = YUG
+		add_core_of = SVN
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		599 6626 11595 13274 
+	}
+	manpower=60059
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,24 @@
+state={
+	id=916
+	name="STATE_916"
+	resources={
+		tungsten=18.000
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		1832 3781 4778 12124 
+	}
+	manpower=203001
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

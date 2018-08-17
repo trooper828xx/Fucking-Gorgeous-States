@@ -1,0 +1,24 @@
+state={
+	id=965
+	name="STATE_965"
+
+	history={
+		owner = MAL
+		victory_points = {
+			7387 5 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = MAL
+
+	}
+
+	provinces={
+		7387 
+	}
+	manpower=42000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

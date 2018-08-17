@@ -1,0 +1,22 @@
+
+state={
+	id=699
+	name="STATE_699"
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = MAR
+
+	}
+
+	provinces={
+		5012 7979 10875 
+	}
+	manpower=21000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

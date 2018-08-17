@@ -1,0 +1,25 @@
+
+state={
+	id=1071
+	name="STATE_1071"
+	resources={
+		chromium=4.000
+	}
+
+	history={
+		add_core_of = VIN
+		owner = FRA
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		1302 4379 4397 7280 10016 12297 
+	}
+	manpower=2673679
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

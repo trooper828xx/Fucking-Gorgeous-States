@@ -1,0 +1,21 @@
+state={
+	id=782
+	name="STATE_782"
+
+	history={
+		owner = HOL
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 6
+
+		}
+
+	}
+
+	provinces={
+		480 9431 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

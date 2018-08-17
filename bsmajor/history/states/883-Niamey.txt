@@ -1,0 +1,20 @@
+state={
+	id=883
+	name="STATE_883"
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1975 2056 8028 10758 10780 10805 
+	}
+	manpower=410203
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

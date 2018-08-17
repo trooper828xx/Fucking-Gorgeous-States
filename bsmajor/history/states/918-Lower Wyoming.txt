@@ -1,0 +1,21 @@
+state={
+	id=918
+	name="STATE_918"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		12561 12633 13257 
+	}
+	manpower=41202
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

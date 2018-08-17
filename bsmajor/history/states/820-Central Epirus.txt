@@ -1,0 +1,26 @@
+state={
+	id=820
+	name="STATE_820"
+
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			9805 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = GRE
+
+	}
+
+	provinces={
+		841 3914 9805 
+	}
+	manpower=120200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,24 @@
+state={
+	id=865
+	name="STATE_865"
+
+	history={
+		owner = FRA
+		victory_points = {
+			12751 5 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = MRI
+
+	}
+
+	provinces={
+		2012 4927 5045 8116 10812 10829 10915 12751 12794 12838 
+	}
+	manpower=3201200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

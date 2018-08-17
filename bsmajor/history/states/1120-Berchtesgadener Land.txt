@@ -1,0 +1,25 @@
+
+state={
+	id=1120
+	name="STATE_1120"
+	manpower = 153412
+
+	state_category = town
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = GER
+		add_core_of = BAV
+
+	}
+
+	provinces={
+		707 3688
+	}
+}
+
+
+

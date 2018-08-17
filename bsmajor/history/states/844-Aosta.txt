@@ -1,0 +1,26 @@
+state={
+	id=844
+	name="STATE_844"
+	resources={
+		steel=24.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+
+		}
+		add_core_of = ITA
+
+	}
+
+	provinces={
+		611 776 3782 6635 6780 11570 
+	}
+	manpower=1620011
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

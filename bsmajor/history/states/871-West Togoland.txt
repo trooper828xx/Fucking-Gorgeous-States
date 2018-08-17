@@ -1,0 +1,21 @@
+state={
+	id=871
+	name="STATE_871"
+
+	history={
+		owner = ENG
+		add_core_of = GHA
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		12785 
+	}
+	manpower=42400
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

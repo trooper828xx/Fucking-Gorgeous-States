@@ -1,0 +1,21 @@
+state={
+	id=1069
+	name="STATE_1069"
+
+	history={
+		add_core_of = VIN
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1157 4119 7015 7093 9948 12048 
+	}
+	manpower=1608000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

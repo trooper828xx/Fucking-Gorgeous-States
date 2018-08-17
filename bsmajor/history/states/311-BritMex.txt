@@ -1,0 +1,23 @@
+state=
+{
+	id=311
+	name="STATE_311"
+	manpower = 51000
+	
+	state_category = enclave
+	history=
+	{
+		owner = ENG
+		buildings = {
+			infrastructure = 4
+			2077 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = BLZ
+		victory_points = {
+			2077 5 
+		}
+	}
+	provinces= { 2077 }
+}

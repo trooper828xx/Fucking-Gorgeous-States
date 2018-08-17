@@ -1,0 +1,40 @@
+
+state={
+	id=586
+	name="STATE_586"
+	resources={
+		steel=20.000
+		chromium=12.000
+		tungsten=4.000
+		aluminium=10.000
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			12583 3 
+		}
+		add_core_of = SOV
+		add_core_of = KGZ
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1825 4686 7706 10148 10660 12583 12640 13147 13277 
+	}
+	manpower=2563404
+	buildings_max_level_factor=1.000
+	state_category=city
+}

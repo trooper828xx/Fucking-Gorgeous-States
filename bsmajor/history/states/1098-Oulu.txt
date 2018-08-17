@@ -1,0 +1,21 @@
+state={
+	id=1098
+	name="STATE_1098"
+
+	history={
+		owner = FIN
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = FIN
+
+	}
+
+	provinces={
+		82 120 158 3026 3073 3115 3149 3153 6045 6134 9233 11024 11041 11079 11081 
+	}
+	manpower=100100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

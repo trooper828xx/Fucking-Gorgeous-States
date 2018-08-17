@@ -1,0 +1,21 @@
+state={
+	id=1147
+	name="STATE_1147"
+
+	resources = {
+		steel=4
+		rubber=36
+	}
+
+	history = {
+		owner = FRA
+		add_core_of = CAM
+	}
+
+	provinces={
+		1353 4251 4302 4359 7404 10134 10177 10467 12191 
+	}
+	manpower=835471
+	buildings_max_level_factor=1.000
+	state_category = small_town
+}

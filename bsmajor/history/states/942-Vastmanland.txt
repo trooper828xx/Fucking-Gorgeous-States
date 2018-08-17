@@ -1,0 +1,22 @@
+state={
+	id=942
+	name="STATE_942"
+
+	history={
+		owner = SWE
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		add_core_of = SWE
+
+	}
+
+	provinces={
+		35 114 3106 6084 6164 6188 9185 9209 11044 11197 13097 
+	}
+	manpower=453001
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

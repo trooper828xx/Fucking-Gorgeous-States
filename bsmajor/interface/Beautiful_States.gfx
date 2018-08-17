@@ -1,0 +1,28 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_event_separate_burma"
+		textureFile = "gfx/event_pictures/report_event_separate_burma.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_vilnius_move"
+		textureFile = "gfx/event_pictures/report_event_vilnius_move.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_pope_died"
+		textureFile = "gfx/event_pictures/news_event_pope_died.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_generic_mexican_empire"
+		textureFile = "gfx/interface/decisions/decision_cat_generic_mexican_empire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_king_leopold_iii"
+		textureFile = "gfx/interface/ideas/idea_bel_leopold_iii.dds"
+	}
+
+}

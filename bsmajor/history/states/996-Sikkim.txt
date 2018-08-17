@@ -1,0 +1,19 @@
+state={
+	id=996
+	name="STATE_996"
+
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+	provinces={
+		4435 
+	}
+	manpower=212000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

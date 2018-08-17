@@ -1,0 +1,45 @@
+﻿l_english:
+ KOR_fascism:0 "Great Korean Empire"
+ KOR_fascism_DEF:0 "Great Korean Empire"
+ KOR_neutrality:0 "Joseon"
+ KOR_neutrality_DEF:0 "Joseon"
+ KOR_fascism_ADJ:0 "Joseon"
+ KOR_neutrality_ADJ:0 "Joseon"
+ 
+ UKR_communism:0 "Ukrainian SSR"
+ UKR_communism_DEF:0 "Ukrainian Soviet Socialist Republic"
+ UKR_neutrality:0 "Ukrainian State"
+ UKR_neutrality_DEF:0 "Ukrainian State"
+
+ GEO_communism:0 "Georgian SSR"
+ GEO_communism_DEF:0 "Georgian Soviet Socialist Republic"
+
+ KAZ_communism:0 "Kazakh SSR"
+ KAZ_communism_DEF:0 "Kazakh Soviet Socialist Republic"
+ KAZ_neutrality:0 "Alash Autonomy"
+ KAZ_neutrality_DEF:0 "Alash Autonomy"
+ KAZ_neutrality_ADJ:0 "Alash"
+
+ AZR_communism:0 "Azerbaijan SSR"
+ AZR_communism_DEF:0 "Azerbaijan Soviet Socialist Republic"
+
+ ARM_communism:0 "Armenian SSR"
+ ARM_communism_DEF:0 "Armenian Soviet Socialist Republic"
+
+ BLR_communism:0 "Belarusian SSR"
+ BLR_communism_DEF:0 "Belarusian Soviet Socialist Republic"
+
+ SOV_fascism:0 "Russian Fascist Union"
+ SOV_fascism_DEF:0 "Russian Fascist Union"
+ SOV_fascism_ADJ:0 "Russian"
+ 
+ WGR_democratic:0 "Federal Republic of Germany"
+ WGR_democratic_DEF:0 "Federal Republic of Germany"
+ 
+ DDR_communism:0 "German Democratic Republic"
+ DDR_communism_DEF:0 "German Democratic Republic"
+
+ AUS_neutrality:0 "Austria"
+ AUS_neutrality_DEF:0 "Federal State of Austria"
+ AUS_communism:0 "Austrian People's Republic"
+ AUS_communism_DEF:0 "Austrian People's Republic"

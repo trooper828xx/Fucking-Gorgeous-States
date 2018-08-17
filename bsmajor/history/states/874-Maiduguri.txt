@@ -1,0 +1,19 @@
+state={
+	id=874
+	name="STATE_874"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		13242 13244 
+	}
+	manpower=18000
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+}

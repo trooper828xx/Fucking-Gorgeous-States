@@ -1,0 +1,21 @@
+state={
+	id=888
+	name="STATE_888"
+
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = COG
+
+	}
+
+	provinces={
+		2220 
+	}
+	manpower=110024
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

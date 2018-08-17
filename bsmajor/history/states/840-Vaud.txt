@@ -1,0 +1,24 @@
+state={
+	id=840
+	name="STATE_840"
+
+
+	history={
+		owner = SWI
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = SWI
+
+	}
+
+	provinces={
+		6683 9622 11590 13124 
+	}
+	manpower=611335
+	buildings_max_level_factor=1.000
+	state_category=town
+}

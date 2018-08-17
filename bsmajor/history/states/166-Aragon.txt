@@ -1,0 +1,27 @@
+
+state={
+	id=166
+	name="STATE_166"
+
+	history={
+		owner = SPR
+		victory_points = {
+			3816 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = SPR
+
+	}
+
+	provinces={
+		798 813 871 948 3816 3909 3954 6878 7213 9812 11737 
+	}
+	manpower=735531
+	buildings_max_level_factor=1.000
+	state_category=town
+}

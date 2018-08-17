@@ -1,0 +1,30 @@
+state={
+	id=1067
+	name="STATE_1067"
+
+	history={
+		add_core_of = VIN
+		owner = FRA
+		victory_points = {
+			4401 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+			4401 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1396 1423 4401 7238 10261 
+	}
+	manpower=2003000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

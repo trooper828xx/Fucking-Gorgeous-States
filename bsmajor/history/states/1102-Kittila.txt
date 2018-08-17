@@ -1,0 +1,22 @@
+state={
+	id=1102
+	name="STATE_1102"
+
+	history={
+		owner = FIN
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = FIN
+
+	}
+
+
+	provinces={
+		124 3055 3193 11115 11125 11130 
+	}
+	manpower=30012
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

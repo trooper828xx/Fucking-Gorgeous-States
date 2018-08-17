@@ -1,0 +1,21 @@
+state={
+	id=1145
+	name="STATE_1145"
+	manpower = 62548
+	
+	state_category = pastoral
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SYR
+
+	}
+
+
+	provinces={
+		901 10882 13320 13322
+	}
+}

@@ -1,0 +1,27 @@
+state={
+	id=1025
+	name="STATE_1025"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 4
+			4073 = {
+				naval_base = 2
+			}
+			1155 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = EGY
+
+	}
+
+	provinces={
+		1155 4073 9947 12049 
+	}
+	manpower=1303022
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}
