@@ -1,0 +1,21 @@
+state={
+	id=1160
+	name="STATE_1160"
+
+	history = {
+		owner = PER
+		add_core_of = PER
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+
+	provinces={
+		4943 5098 9816 12773 
+	}
+	manpower=465872
+	buildings_max_level_factor=1.000
+	state_category = rural	
+}
