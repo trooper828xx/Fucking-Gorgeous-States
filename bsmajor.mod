@@ -1,4 +1,4 @@
-﻿name="Beautiful States"
+﻿name="Hecking Gorgeous States"
 path="mod/bsmajor/"
 tags={
 	"Fixes"
