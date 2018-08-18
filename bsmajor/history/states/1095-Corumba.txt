@@ -3,12 +3,11 @@ state={
 	name="STATE_1095"
 
 	history={
-		owner = BOL
+		owner = BRA
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = BOL
-	}
+		add_core_of = BRA	}
 
 	provinces={
 		2142 

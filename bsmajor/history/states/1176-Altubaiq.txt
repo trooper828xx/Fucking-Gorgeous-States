@@ -1,0 +1,16 @@
+state={
+	id=1176
+	name="STATE_1176"
+	provinces={
+		13339 
+	}
+	history=
+	{
+		owner = ENG
+		buildings = {
+			infrastructure = 0
+			}
+		}
+	state_category = wasteland
+	manpower=1932
+}

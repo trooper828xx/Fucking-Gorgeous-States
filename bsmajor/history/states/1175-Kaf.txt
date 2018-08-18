@@ -1,0 +1,17 @@
+state={
+	id=1175
+	name="STATE_1175"
+	provinces={
+		13340 
+	}
+	history=
+	{
+		owner = SAU
+		buildings = {
+			infrastructure = 0
+			}
+		add_core_of = SAU
+		}
+	state_category = wasteland
+	manpower=833
+}
