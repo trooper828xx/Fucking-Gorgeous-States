@@ -1,19 +1,14 @@
-
 state={
-	id=597
-	name="STATE_597"
+	id=1195
+	name="STATE_1195"
 
 	history={
 		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
-		victory_points = {
-			1069 3 
-		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			air_base = 3
 
 		}
 		1938.10.25 = {
@@ -24,9 +19,9 @@ state={
 	}
 
 	provinces={
-		1069 1124 1154 1184 4037 4071 4089 4157 4181 7055 7089 9971 10043 10072 10102 12015 12045 12069 12074 
+		1084 7160 7189 9987 11933 11962 12093 
 	}
-	manpower=32794379
+	manpower=1547821
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 }
