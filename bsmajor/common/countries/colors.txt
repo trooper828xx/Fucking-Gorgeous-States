@@ -727,6 +727,33 @@ ROK = {
 	color = rgb { 195  217  255 }
 	color_ui = rgb { 195  217  255 }
 }
+RHI = {
+	color = rgb { 143 188 143 }
+	color_ui = rgb { 143 188 143 }
+}
+VNC = {
+       color = rgb { 115 168 168 }
+       color_ui = rgb { 115 168 168 }
+}
+TRI = {
+       color = rgb { 107 142 35 }
+       color_ui = rgb { 107 142 35 }
+}
+LOM = {  
+      color = rgb { 238 232 170 }
+      color_ui = rgb { 238 232 170 }
+}
+       color = rgb { 70 130 180 }
+       color_ui = rgb { 70 130 180 }
+}	   
+TUS = {
+       color = rgb { 119 136 153 }
+       color_ui = rgb { 119 136 153 }
+}
+SRD = {
+       color = rgb { 143 188 143 }
+       color_ui = rgb { 143 188 143 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

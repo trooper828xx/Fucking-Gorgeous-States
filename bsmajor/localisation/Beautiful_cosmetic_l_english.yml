@@ -178,3 +178,11 @@
  VIN_FRA_democratic_DEF:0 "French Indochinese Federation"
  VIN_subject:0 "$OVERLORDADJ$ Indochina"
  VIN_subject_DEF:0 "the $OVERLORDADJ$ Indochinese Federation"
+ 
+ RHI_FRA_democratic:0 "Confederation of the Rhine"
+ RHI_FRA_democratic_DEF:0 "the Confederation of the Rhine"
+ RHI_FRA_neutrality:0 "Confederation of the Rhine"
+ RHI_FRA_neutrality_DEF:0 "the Confederation of the Rhine"
+ RHI_FRA_subject:0 "$OVERLORDADJ$ Rhineland"
+ RHI_FRA_autonomy_dominion:0 "Confederation of the Rhine"
+ RHI_FRA_autonomy_dominion_DEF:0 "Confederation of the Rhine"

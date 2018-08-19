@@ -10,6 +10,7 @@ state={
 
 		}
 		add_core_of = ITA
+		add_core_of = LOM
 		add_claim_by = SWI
 		1939.1.1 = {
 			buildings = {

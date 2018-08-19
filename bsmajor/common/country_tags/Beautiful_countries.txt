@@ -28,6 +28,13 @@ WLL = "countries/Wallonia.txt"
 KAR = "countries/Karelia.txt"
 BGN = "countries/Burgundy.txt"
 BRT = "countries/Brittany.txt"
+RHI = "countries/Rhineland.txt"
+VNC = "countries/Venice.txt"
+TRI = "countries/Trieste.txt"
+LOM = "countries/Lombardy.txt"
+PIE = "countries/Piedmont.txt"
+TUS = "countries/Tuscany.txt"
+SRD = "countries/Sardinia.txt"
 
 ##Africa##
 ALG = "countries/Algeria.txt"

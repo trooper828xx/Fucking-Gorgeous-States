@@ -23,6 +23,7 @@ state={
 
 		}
 		add_core_of = ITA
+		add_claim_by = VCT
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
