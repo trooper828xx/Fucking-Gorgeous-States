@@ -1,0 +1,24 @@
+state={
+	id=1198
+	name="STATE_1198"
+	provinces={
+		10352 10380 
+	}
+	
+	history = {
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			
+			10352 = {
+				naval_base = 1
+				}
+			}
+		}
+
+		
+	manpower=49238
+	buildings_max_level_factor=1.000
+	state_category=city
+}
