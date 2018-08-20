@@ -17,7 +17,7 @@ state={
 		922 11842 
 	}
 	
-	manpower=0
+	manpower=12349
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
