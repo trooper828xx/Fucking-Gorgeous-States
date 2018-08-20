@@ -1,14 +1,24 @@
-
 state={
 	id=847
 	name="STATE_847"
 
 	history={
 		owner = ITA
-
+		victory_points = {
+			11837 15 
+		}
 		buildings = {
 			infrastructure = 5
-			dockyard = 2
+			dockyard = 4
+			air_base = 5
+			11837 = {
+				naval_base = 10
+
+			}
+			11998 = {
+				naval_base = 2
+
+			}
 
 		}
 		add_core_of = ITA
@@ -24,9 +34,9 @@ state={
 	}
 
 	provinces={
-		883 6843 6939 6980 9784 
+		883 6843 6939 6979 6980 9784 11837 11998 
 	}
-	manpower=1021819
+	manpower=1600315
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=town
 }
