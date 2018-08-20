@@ -1,21 +1,16 @@
-
 state={
-	id=664
-	name="STATE_664"
+	id=1207
+	name="STATE_1207"
 	resources={
-		steel=13.000
-		chromium=3.000
+		aluminium=6
 	}
 
 	history={
 		owner = CZE
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 			industrial_complex = 1
 
-		}
-		victory_points = {
-			6573 1 
 		}
 		add_core_of = CZE
 		add_core_of = SLO
@@ -31,10 +26,11 @@ state={
 
 	}
 
+
 	provinces={
-		3565 6573 9537 
+		3716 11679 
 	}
-	manpower=222439
+	manpower=365987
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

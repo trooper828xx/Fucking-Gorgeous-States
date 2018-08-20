@@ -1,7 +1,6 @@
-
 state={
-	id=814
-	name="STATE_814"
+	id=1206
+	name="STATE_1206"
 
 	history={
 		owner = YUG
@@ -16,9 +15,9 @@ state={
 	}
 
 	provinces={
-		11580 
+		11577 
 	}
-	manpower=58793
+	manpower=65607
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

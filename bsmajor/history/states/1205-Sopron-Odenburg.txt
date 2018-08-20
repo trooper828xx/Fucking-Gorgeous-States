@@ -1,13 +1,12 @@
-
 state={
-	id=793
-	name="STATE_793"
+	id=1205
+	name="STATE_1205"
 
 	history={
 		owner = AUS
 		add_core_of = AUS
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 
 		}
 		add_core_of = AUS
@@ -21,9 +20,9 @@ state={
 	}
 
 	provinces={
-		9661 11630 
+		3700 
 	}
-	manpower=37633
+	manpower=3598
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=wasteland
 }
