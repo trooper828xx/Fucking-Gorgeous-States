@@ -4,6 +4,7 @@ state={
 	name="STATE_347"
 	resources={
 		chromium=19.000
+		steel=5
 	}
 
 	history={

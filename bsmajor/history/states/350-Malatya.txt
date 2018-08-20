@@ -3,6 +3,11 @@ state={
 	id=350
 	name="STATE_350"
 
+	resources = {
+		oil=2
+		chromium=11
+	}
+
 	history={
 		owner = TUR
 		buildings = {

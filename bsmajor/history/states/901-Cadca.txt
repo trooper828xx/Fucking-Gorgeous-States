@@ -2,6 +2,10 @@ state={
 	id=901
 	name="STATE_901"
 
+	resources = {
+		steel=1
+	}
+
 	history={
 		owner = CZE
 		buildings = {

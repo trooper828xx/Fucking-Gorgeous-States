@@ -3,6 +3,10 @@ state={
 	id=896
 	name="STATE_896"
 
+	resources = {
+		steel = 7
+	}
+
 	history={
 		owner = SAU
 		buildings = {
