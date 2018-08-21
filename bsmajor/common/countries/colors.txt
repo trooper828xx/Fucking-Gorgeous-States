@@ -743,6 +743,7 @@ LOM = {
       color = rgb { 238 232 170 }
       color_ui = rgb { 238 232 170 }
 }
+PIE = {
        color = rgb { 70 130 180 }
        color_ui = rgb { 70 130 180 }
 }	   
