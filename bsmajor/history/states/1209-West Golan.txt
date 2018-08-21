@@ -1,0 +1,21 @@
+state={
+	id=1209
+	name="STATE_1209"
+	
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+			}
+		add_core_of = PAL
+		add_core_of = ISR
+		}
+	
+	provinces={
+		1065 
+	}
+	
+	manpower=12348
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
