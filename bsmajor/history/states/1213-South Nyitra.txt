@@ -1,0 +1,30 @@
+state={
+	id=1213
+	name="STATE_1213"
+	resources={
+		aluminium=6
+	}
+	history={
+		owner = CZE
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = CZE
+		add_core_of = SLO
+		add_claim_by = HUN
+		1939.3.14 = {
+			owner = HUN
+			controller = HUN
+			remove_claim_by = HUN
+			add_core_of = HUN
+			add_core_of = SLO
+		}
+	}
+	provinces={
+		3716 11679 
+	}
+	manpower=365987
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
