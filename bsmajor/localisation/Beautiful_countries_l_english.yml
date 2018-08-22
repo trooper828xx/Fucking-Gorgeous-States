@@ -833,8 +833,8 @@
  
  RHI_fascism:0 "Imperial Federation of the Rhineland"
  RHI_fascism_DEF:0 "the Imperial Federation of the Rhineland"
- RHI_democratic:0 "Republic of the Rhine"
- RHI_democratic_DEF:0 "the Republic of the Rhine"
+ RHI_democratic:0 "Rhenish Republic"
+ RHI_democratic_DEF:0 "the Renish Republic"
  RHI_neutrality:1 "Kingdom of the Rhine"
  RHI_neutrality_DEF:1 "the Kingdom of the Rhine"
  RHI_communism:0 "Union of the Rhine"
