@@ -4,6 +4,7 @@ state={
 	name="STATE_30"
 
 	resources ={
+		oil=8
 		steel=20
 	}
 

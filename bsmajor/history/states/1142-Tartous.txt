@@ -3,11 +3,6 @@ state={
 	id=1142
 	name="STATE_1142"
 
-	resources = {
-		oil=5
-		steel=7
-	}
-
 	history={
 		owner = FRA
 		buildings = {
