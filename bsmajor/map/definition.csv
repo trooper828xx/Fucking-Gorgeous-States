@@ -5935,7 +5935,7 @@
 5934;80;38;232;sea;false;ocean;0
 5935;80;39;240;sea;false;ocean;0
 5936;80;40;248;sea;false;ocean;0
-5937;81;0;236;sea;false;ocean;0
+5937;81;0;236;sea;true;ocean;0
 5938;81;2;244;sea;false;ocean;0
 5939;81;4;232;sea;false;ocean;0
 5940;81;6;240;sea;false;ocean;0
@@ -13353,3 +13353,4 @@
 13352;170;84;147;land;false;unknown;0
 13353;136;105;140;land;false;hills;0
 13354;105;93;70;land;true;hills;0
+13355;105;201;128;land;true;hills;0
