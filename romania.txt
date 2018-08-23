@@ -8,7 +8,7 @@ focus_tree = {
 			add = 10
 			tag = ROM
 			#always = no
-			has_dlc = "Death or Dishonor"
+			#has_dlc = "Death or Dishonor"
 		}
 	}
 	
@@ -516,6 +516,7 @@ focus_tree = {
 
 		completion_reward = {
 			random_owned_controlled_state = {
+			prioritize = { 46 }
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
 				}
@@ -576,11 +577,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			create_wargoal = {
-				type = take_state_focus
-				target = SOV
-				generator = { 192 198 }
-			}
+			add_state_claim = 192
+			add_state_claim = 198
+			add_state_claim = 790
 		}
 	}
 
@@ -1022,6 +1021,7 @@ focus_tree = {
 
 		completion_reward = {
 			random_owned_controlled_state = {
+			prioritize = { 81 }
 				limit = {
 					free_building_slots = {
 						building = arms_factory
@@ -1038,6 +1038,7 @@ focus_tree = {
 				set_state_flag = ROM_national_defense_industry_AF1
 			}
 			random_owned_controlled_state = {
+			prioritize = { 79 }
 				limit = {
 					free_building_slots = {
 						building = arms_factory
@@ -1242,6 +1243,7 @@ focus_tree = {
 
 		completion_reward = {
 			random_owned_controlled_state = {
+				prioritize = { 79 }
 				limit = {
 					ROOT = { has_full_control_of_state = PREV } 
 					free_building_slots = {
@@ -1343,6 +1345,7 @@ focus_tree = {
 
 		completion_reward = {
 			random_owned_controlled_state = {
+				prioritize = { 1216 }
 				limit = {
 					ROOT = { has_full_control_of_state = PREV } 
 					free_building_slots = {
@@ -1408,6 +1411,7 @@ focus_tree = {
 
 		completion_reward = {
 			random_owned_controlled_state = {
+				prioritize = { 46 }
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
 					free_building_slots = {
@@ -1904,9 +1908,6 @@ focus_tree = {
 
 		available = {
 			is_subject = no
-			communism < 0.5
-			fascism < 0.5
-			democratic < 0.5
 		}
 
 		bypass = {
@@ -1923,6 +1924,10 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 120
+			add_popularity = {
+				popularity = 0.5
+				ideology = neutrality
+			}
 			create_country_leader = {
 				name = "Carol II"
 				desc = "POLITICS_CAROL_II_DESC"
@@ -1934,68 +1939,8 @@ focus_tree = {
 				}
 				id = 550
 			}
+			set_politics = { ruling_party = neutrality elections_allowed = no }
 			remove_ideas = neutrality_idea
-		}
-	}
-
-	focus = {
-		id = ROM_king_michaels_coup
-		icon = GFX_focus_rom_coup
-		prerequisite = { focus = ROM_institute_royal_dictatorship }
-		x = 2
-		y = 1
-		relative_position_id = ROM_institute_royal_dictatorship
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_completed_focus = ROM_his_majestys_loyal_government
-			}
-		}
-
-		available = {
-			is_subject = no
-			OR = {
-				has_war = yes
-				threat > 0.25
-			}
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			create_country_leader = {
-				name = "Michael I"
-				desc = "POLITICS_MICHAEL_I_DESC"
-				picture = GFX_Portrait_romania_michael_i				
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-				}
-			}
-			if = {
-				limit = {
-					has_idea = ROM_king_carol_ii_hedonist
-				}
-				remove_ideas = ROM_king_carol_ii_hedonist
-			}
-			hidden_effect = {
-				news_event = { id = news.322 days = 1 }
-			}
-			
 		}
 	}
 
@@ -2209,8 +2154,7 @@ focus_tree = {
 
 		}
 
-		completion_reward = {
-			
+		completion_reward = {			
 			set_politics = {
 				ruling_party = neutrality
 				elections_allowed = no
@@ -2340,9 +2284,9 @@ focus_tree = {
 				else = {
 					if = {
 						limit = {
-							has_idea = ROM_securitate
+							has_idea = ROM_iron_guard
 						}
-						remove_ideas = ROM_securitate
+						remove_ideas = ROM_iron_guard
 						else = {
 							custom_effect_tooltip = ROM_appoint_soviet_friendly_government_tooltip
 						}
@@ -2407,9 +2351,9 @@ focus_tree = {
 				else = {
 					if = {
 						limit = {
-							has_idea = ROM_securitate
+							has_idea = ROM_iron_guard
 						}
-						remove_ideas = ROM_securitate
+						remove_ideas = ROM_iron_guard
 						else = {
 							custom_effect_tooltip = ROM_appoint_soviet_friendly_government_tooltip
 						}
@@ -2673,6 +2617,68 @@ focus_tree = {
 	}
 
 	focus = {
+		id = ROM_king_michaels_coup
+		icon = GFX_focus_rom_coup
+		prerequisite = { focus = ROM_institute_royal_dictatorship }
+		x = 2
+		y = 1
+		relative_position_id = ROM_institute_royal_dictatorship
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_completed_focus = ROM_his_majestys_loyal_government
+			}
+		}
+
+		available = {
+			is_subject = no
+			OR = {
+				has_war = yes
+				threat > 0.25
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			create_country_leader = {
+				name = "Michael I"
+				desc = "POLITICS_MICHAEL_I_DESC"
+				picture = GFX_Portrait_romania_michael_i				
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = {
+				 	popular_figurehead
+				}
+			}
+			if = {
+				limit = {
+					has_idea = ROM_king_carol_ii_hedonist
+				}
+				remove_ideas = ROM_king_carol_ii_hedonist
+			}
+			hidden_effect = {
+				news_event = { id = news.322 days = 1 }
+			}
+			
+		}
+	}
+
+	focus = {
 		id = ROM_appoint_allied_friendly_government
 		icon = GFX_goal_support_democracy
 		prerequisite = { focus = ROM_flexible_foreign_policy }
@@ -2916,6 +2922,7 @@ focus_tree = {
 		completion_reward = {
 			air_experience = 25
 			random_owned_controlled_state = {
+			prioritize = { 46 }
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
 					free_building_slots = {
@@ -2931,6 +2938,7 @@ focus_tree = {
 				set_state_flag = ROM_expand_the_air_force_AB
 			}
 			random_owned_controlled_state = {
+			prioritize = { 79 }
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
 					free_building_slots = {
@@ -4250,6 +4258,7 @@ focus_tree = {
 		completion_reward = {
 			navy_experience = 25
 			random_owned_controlled_state = {
+			prioritize = { 46 }
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
 					free_building_slots = {
