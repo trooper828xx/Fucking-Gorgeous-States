@@ -9,9 +9,6 @@ state={
 			industrial_complex = 1
 
 		}
-		victory_points = {
-			6711 5 
-		}
 		add_core_of = ROM
 
 	}
@@ -20,7 +17,7 @@ state={
 		713 3696 3709 6711 6714 9687 
 	}
 	
-	manpower=93813
+	manpower=330748
 	buildings_max_level_factor=1.000
 	state_category = town
 }
