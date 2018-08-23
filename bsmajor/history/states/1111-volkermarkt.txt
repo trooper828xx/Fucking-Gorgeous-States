@@ -1,3 +1,4 @@
+
 state={
 	id=1111
 	name="STATE_1111"
@@ -8,7 +9,6 @@ state={
 			infrastructure = 4
 
 		}
-		
 		add_core_of = AUS
 		1938.3.12 = {
 			owner = GER
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		 6673 11612 
+		11612 13356 
 	}
 	manpower=11000
 	buildings_max_level_factor=1.000

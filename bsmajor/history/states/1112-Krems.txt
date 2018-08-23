@@ -1,14 +1,13 @@
+
 state={
 	id=1112
 	name="STATE_1112"
-
-	resources = {
-		oil=5
+	resources={
+		oil=5.000
 	}
 
 	history={
 		owner = AUS
-		
 		buildings = {
 			infrastructure = 5
 
@@ -31,7 +30,7 @@ state={
 	}
 
 	provinces={
-		3718 6739 9527 
+		3718 6552 6723 6739 9527 
 	}
 	manpower=345521
 	buildings_max_level_factor=1.000

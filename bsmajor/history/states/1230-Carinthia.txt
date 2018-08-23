@@ -1,0 +1,21 @@
+state={
+	id=1230
+	name="STATE_1230"
+	
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = AUS
+	}
+	
+	provinces={
+		668 3674 
+	}
+	
+	manpower=95623
+	buildings_max_level_factor=1.000
+	state_category=town
+}

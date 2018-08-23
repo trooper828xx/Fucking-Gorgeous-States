@@ -1,9 +1,9 @@
+
 state={
 	id=795
 	name="STATE_795"
-
-	resources = {
-		oil=8
+	resources={
+		oil=8.000
 	}
 
 	history={
@@ -27,7 +27,7 @@ state={
 	}
 
 	provinces={
-		668 688 3674 3675 6691 11634 
+		688 3675 13359 
 	}
 	manpower=1032000
 	buildings_max_level_factor=1.000
