@@ -20,6 +20,7 @@ state={
 		}
 		add_core_of = GER
 		add_core_of = PRS
+		add_core_of = THU
 		1939.1.1 = {
 			buildings = {
 				synthetic_refinery = 3

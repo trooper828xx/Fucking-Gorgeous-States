@@ -755,6 +755,62 @@ SRD = {
        color = rgb { 143 188 143 }
        color_ui = rgb { 143 188 143 }
 }
+BAD = {
+       color = rgb { 210 224 11 }
+       color_ui = rgb { 210 224 11 }
+}
+HAN = {
+       color = rgb { 168 82 69 }
+       color_ui = rgb { 168 82 69 }
+}
+HES = {
+       color = rgb { 226 193 140 }
+       color_ui = rgb { 226 193 140 }
+}
+WSF = {
+       color = rgb { 58 86 140 }
+       color_ui = rgb { 58 86 140 }
+}
+HAM = {
+       color = rgb { 150 6 58 }
+       color_ui = rgb { 150 6 58 }
+}
+THU = {
+       color = rgb { 130 100 85 }
+       color_ui = rgb { 130 100 85 }
+}
+SCH = {
+       color = rgb { 120 205 226 }
+       color_ui = rgb { 120 205 226 }
+}
+SIL = {
+       color = rgb { 67 96 71 }
+       color_ui = rgb { 67 96 71 }
+}
+BRD = {
+       color = rgb { 165 165 165 }
+       color_ui = rgb { 165 165 165 }
+}
+BER = {
+       color = rgb { 183 172 137 }
+       color_ui = rgb { 183 172 137 }
+}
+MCK = {
+       color = rgb { 108 95 117 }
+       color_ui = rgb { 108 95 117 }
+}
+POM = {
+       color = rgb { 150 158 147 }
+       color_ui = rgb { 150 158 147 }
+}
+ALC = {
+       color = rgb { 125 179 198 }
+       color_ui = rgb { 125 179 198 }
+}
+LOR = {
+       color = rgb { 229 219 39 }
+       color_ui = rgb { 229 219 39 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

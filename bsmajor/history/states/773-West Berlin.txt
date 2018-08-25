@@ -10,7 +10,8 @@ state={
 		}
 		add_core_of = GER
 		add_core_of = PRS
-
+		add_core_of = BER
+		
 	}
 
 	provinces={

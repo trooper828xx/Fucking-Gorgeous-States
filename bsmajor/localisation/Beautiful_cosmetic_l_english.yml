@@ -186,3 +186,21 @@
  RHI_FRA_subject:0 "$OVERLORDADJ$ Rhineland"
  RHI_FRA_autonomy_dominion:0 "Confederation of the Rhine"
  RHI_FRA_autonomy_dominion_DEF:0 "Confederation of the Rhine"
+ 
+ WSF_FRA_democratic:0 "Confederation of Westphalia"
+ WSF_FRA_democratic_DEF:0 "the Confederation of Westphalia"
+ WSF_FRA_neutrality:0 "Confederation of Westphalia"
+ WSF_FRA_neutrality_DEF:0 "the Confederation of Westphalia"
+ WSF_FRA_subject:0 "$OVERLORDADJ$ Westphalia"
+ WSF_FRA_autonomy_dominion:0 "Confederation of Westphalia"
+ WSF_FRA_autonomy_dominion_DEF:0 "Confederation of Westphalia"
+ 
+ SCH_DEN_democratic:0 "Schleswig Holstein"
+ SCH_DEN_democratic_DEF:0 "Schleswig Holstein"
+ SCH_subject:0 "$OVERLORDADJ$ Schleswig Holstein"
+ SCH_subject_DEF:0 "the $OVERLORDADJ$ Schleswig Holstein"
+ 
+ SIL_CZE_democratic:0 "Czech Silesia"
+ SIL_CZE_democratic_DEF:0 "Czech Silesia"
+ SIL_subject:0 "$OVERLORDADJ$ Silesia"
+ SIL_subject_DEF:0 "the $OVERLORDADJ$ Silesia"
