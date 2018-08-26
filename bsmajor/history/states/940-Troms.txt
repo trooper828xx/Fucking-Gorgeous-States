@@ -1,3 +1,4 @@
+
 state={
 	id=940
 	name="STATE_940"
@@ -14,14 +15,16 @@ state={
 				naval_base = 2
 
 			}
+
 		}
 		add_core_of = NOR
+
 	}
 
 	provinces={
-		44 91 3058 3082 3145 6079 6107 6130 11050 11090 11157 
+		44 91 3058 3082 3145 6079 6130 11050 11090 11157 
 	}
 	manpower=170030
 	buildings_max_level_factor=1.000
-	state_category = pastoral
+	state_category=pastoral
 }
