@@ -1,0 +1,31 @@
+state={
+	id=1242
+	name="STATE_1242"
+	
+	history={
+		owner = GER
+		victory_points = {
+			13280 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 2
+			13280 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = GER
+
+	}
+	
+	provinces={
+		13280 
+	}
+	
+	manpower=938
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

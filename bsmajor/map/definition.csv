@@ -13278,7 +13278,7 @@
 13277;182;161;51;land;false;urban;0
 13278;35;190;152;lake;false;plains;0
 13279;197;160;77;land;true;plains;0
-13280;102;58;153;land;false;desert;0
+13280;102;58;153;land;true;plains;0
 13281;129;101;181;land;true;plains;0
 13282;196;199;135;land;true;hills;0
 13283;166;149;106;land;false;mountain;0
