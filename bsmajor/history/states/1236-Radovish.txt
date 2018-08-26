@@ -1,9 +1,24 @@
 state={
 	id=1236
 	name="STATE_1236"
+	
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = YUG
+		add_core_of = MKD
+		add_claim_by = BUL
+
+	}
+	
 	provinces={
 		6886 13365 13366 
 	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category = rural
 }
