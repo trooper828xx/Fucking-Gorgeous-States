@@ -1,0 +1,18 @@
+state={
+	id=1245
+	name="STATE_1245"
+	provinces={
+		8054 
+	}
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ANG
+	}
+
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

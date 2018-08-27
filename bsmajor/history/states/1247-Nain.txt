@@ -1,26 +1,20 @@
-
 state={
-	id=332
-	name="STATE_332"
-
+	id=1247
+	name="STATE_1247"
+	provinces={
+		1426 
+	}
+	
 	history={
 		owner = ENG
 		buildings = {
 			infrastructure = 1
-			12503 = {
-				naval_base = 1
-
-			}
 
 		}
 		add_core_of = NFL
 
 	}
-
-	provinces={
-		1785 4720 4787 12503 13165 13180 
-	}
-	manpower=22179
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

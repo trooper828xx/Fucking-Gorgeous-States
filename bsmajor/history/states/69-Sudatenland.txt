@@ -4,7 +4,7 @@ state={
 	name="STATE_69"
 	resources={
 		steel=4.000
-		oil=3
+		oil=3.000
 	}
 
 	history={
@@ -49,7 +49,7 @@ state={
 	}
 
 	provinces={
-		424 469 3418 3585 6470 9555 11401 11414 11432 
+		469 3418 3585 6470 11432 
 	}
 	manpower=2420000
 	buildings_max_level_factor=1.000

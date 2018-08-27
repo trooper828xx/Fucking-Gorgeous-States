@@ -1,16 +1,15 @@
-
 state={
-	id=899
-	name="STATE_899"
-
+	id=1250
+	name="STATE_1250"
+	provinces={
+		11401 11414 
+	}
 	history={
 		owner = CZE
 		buildings = {
 			infrastructure = 8
-			5283 = {
-				bunker = 1
-
-			}
+			industrial_complex = 2
+			anti_air_building = 1
 
 		}
 		add_core_of = CZE
@@ -22,10 +21,7 @@ state={
 
 	}
 
-	provinces={
-		543 557 5283 11525 
-	}
-	manpower=410000
+	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
 }
