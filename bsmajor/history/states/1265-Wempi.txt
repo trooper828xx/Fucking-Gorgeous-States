@@ -1,0 +1,21 @@
+state={
+	id=1265
+	name="STATE_1265"
+	
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	
+	provinces={
+		13379 
+	}
+	
+	manpower=9183
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+}
