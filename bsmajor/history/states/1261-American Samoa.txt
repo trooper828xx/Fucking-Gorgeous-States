@@ -1,13 +1,12 @@
-
 state={
-	id=726
-	name="STATE_726"
-
+	id=1261
+	name="STATE_1261"
+	
 	history={
-		owner = NZL
+		owner = USA
 		buildings = {
 			infrastructure = 3
-			7290 = {
+			13080 = {
 				naval_base = 1
 
 			}
@@ -15,11 +14,12 @@ state={
 		}
 
 	}
-
+	
 	provinces={
-		7290 
+		13080 
 	}
-	manpower=123214
+	
+	manpower=31257
 	buildings_max_level_factor=1.000
 	state_category=small_island
 }
