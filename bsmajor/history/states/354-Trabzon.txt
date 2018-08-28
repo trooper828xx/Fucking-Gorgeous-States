@@ -7,13 +7,14 @@ state={
 		owner = TUR
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = TUR
 
 	}
 
 	provinces={
-		789 3714 6976 6991 7454 9886 10403 11753 
+		789 3714 6976 6991 9886 11753 13386 
 	}
 	manpower=1018129
 	buildings_max_level_factor=1.000
