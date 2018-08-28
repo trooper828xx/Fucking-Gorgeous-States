@@ -1,0 +1,22 @@
+state={
+	id=1310
+	name="STATE_1310"
+	
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		add_core_of = ITA
+
+	}
+	
+	provinces={
+		963 3910 6831 9838 11882 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

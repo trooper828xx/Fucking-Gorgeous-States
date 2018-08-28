@@ -3,7 +3,7 @@ state={
 	id=161
 	name="STATE_161"
 	resources={
-		aluminium=2
+		aluminium=2.000
 	}
 
 	history={
@@ -12,13 +12,14 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 2
+
 		}
 		add_core_of = ITA
 
 	}
 
 	provinces={
-		3773 3976 6790 9752 
+		3976 9752 
 	}
 	manpower=751421
 	buildings_max_level_factor=1.000

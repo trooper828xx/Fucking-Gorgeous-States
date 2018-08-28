@@ -1,0 +1,24 @@
+state={
+	id=1309
+	name="STATE_1309"
+	
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = YUG
+		add_core_of = SVN
+		add_core_of = AUS
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+	
+	provinces={
+		13395 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

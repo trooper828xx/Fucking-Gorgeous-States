@@ -1,0 +1,22 @@
+state={
+	id=1301
+	name="STATE_1301"
+	
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = ITA
+		add_core_of = PIE
+
+	}
+	
+	provinces={
+		3772 6788 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

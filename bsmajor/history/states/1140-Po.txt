@@ -10,7 +10,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-		
+
 		}
 		add_core_of = ITA
 		add_core_of = LOM
@@ -18,7 +18,7 @@ state={
 	}
 
 	provinces={
-		603 9582 
+		603 
 	}
 	manpower=125532
 	buildings_max_level_factor=1.000
