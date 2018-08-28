@@ -11,11 +11,12 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = RUS
+		add_claim_by = BLR
 
 	}
 
 	provinces={
-		207 248 354 387 3344 6242 6293 9254 9287 9331 9353 9386 11234 
+		354 387 3344 6293 9287 9386 
 	}
 	manpower=830133
 	buildings_max_level_factor=1.000
