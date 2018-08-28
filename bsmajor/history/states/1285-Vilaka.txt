@@ -1,0 +1,23 @@
+state={
+	id=1285
+	name="STATE_1285"
+
+	history={
+		owner = LAT
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = LAT
+
+	}
+	
+	provinces={
+		3310 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

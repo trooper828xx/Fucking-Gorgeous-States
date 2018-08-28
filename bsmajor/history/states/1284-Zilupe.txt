@@ -1,0 +1,22 @@
+
+state={
+	id=1284
+	name="STATE_1284"
+	
+	history={
+		owner = LAT
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = LAT
+
+	}
+	
+	provinces={
+		13391 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
