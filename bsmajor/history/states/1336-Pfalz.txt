@@ -1,0 +1,39 @@
+state={
+	id=1336
+	name="STATE_1336"
+	
+	history={
+		owner = GER
+		victory_points = {
+			11560 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+
+		}
+		add_core_of = GER
+		add_core_of = RHI
+		set_demilitarized_zone = yes
+		1936.3.7 = {
+			set_demilitarized_zone = no
+
+		}
+		1939.1.1 = {
+			buildings = {
+				radar_station = 1
+				synthetic_refinery = 3
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		563 3558 11547 11560 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

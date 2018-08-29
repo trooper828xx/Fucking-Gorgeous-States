@@ -1,0 +1,23 @@
+state={
+	id=1328
+	name="STATE_1328"
+	
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = SOV
+		add_core_of = RUS
+		add_claim_by = UKR
+
+	}
+	
+	provinces={
+		437 510 3469 3504 3527 3567 6494 6553 6591 9529 9552 11412 11475 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

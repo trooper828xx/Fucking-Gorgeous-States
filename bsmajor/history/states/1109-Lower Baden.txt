@@ -1,8 +1,9 @@
+
 state={
 	id=1109
 	name="STATE_1109"
 	resources={
-		aluminium=2
+		aluminium=2.000
 	}
 
 	history={
@@ -27,9 +28,9 @@ state={
 	}
 
 	provinces={
-		3679 3690 6934 9655 13126 
+		519 694 3690 6934 9655 11486 13126 
 	}
-	manpower=456521 
+	manpower=456521
 	buildings_max_level_factor=1.000
 	state_category=town
 }
