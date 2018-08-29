@@ -1,0 +1,23 @@
+state={
+	id=1346
+	name="STATE_1346"
+	
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 8
+
+		}
+		add_core_of = GER
+		add_core_of = PRS
+		add_core_of = WSF
+
+	}
+	
+	provinces={
+		405 6535 9509 11388 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}
