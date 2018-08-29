@@ -1,23 +1,21 @@
-
 state={
-	id=1007
-	name="STATE_1007"
-
+	id=1322
+	name="STATE_1322"
+	
 	history={
 		owner = RAJ
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 3
 		}
 		add_core_of = PAK
 		add_core_of = RAJ
 
 	}
-
+	
 	provinces={
-		5042 
+		2041 2084 
 	}
-	manpower=21100
+	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pastoral
 }

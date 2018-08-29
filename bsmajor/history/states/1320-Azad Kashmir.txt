@@ -1,8 +1,7 @@
-
 state={
-	id=1007
-	name="STATE_1007"
-
+	id=1320
+	name="STATE_1320"
+	
 	history={
 		owner = RAJ
 		buildings = {
@@ -13,11 +12,11 @@ state={
 		add_core_of = RAJ
 
 	}
-
+	
 	provinces={
-		5042 
+		13405 
 	}
-	manpower=21100
+	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=rural
 }

@@ -9819,7 +9819,7 @@
 9818;130;75;49;land;false;mountain;0
 9819;130;75;154;land;false;forest;0
 9820;130;75;199;land;false;hills;0
-9821;130;78;14;land;true;mountain;0
+9821;130;78;14;land;false;mountain;0
 9822;130;78;164;land;false;plains;0
 9823;130;78;219;land;false;desert;0
 9824;130;81;79;land;true;forest;0
@@ -13400,3 +13400,7 @@
 13399;248;136;65;unknown;false;0;0
 13400;216;254;87;land;false;unknown;0
 13401;255;30;40;land;true;unknown;0
+13402;84;248;42;land;false;unknown;0
+13403;41;143;120;land;false;unknown;0
+13404;154;57;121;land;false;unknown;0
+13405;155;216;37;land;false;unknown;0

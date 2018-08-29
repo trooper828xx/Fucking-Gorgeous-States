@@ -1,8 +1,7 @@
-
 state={
-	id=92
-	name="STATE_92"
-
+	id=1332
+	name="STATE_1332"
+	
 	history={
 		owner = POL
 		buildings = {
@@ -12,20 +11,14 @@ state={
 
 		}
 		add_core_of = POL
-		1939.1.1 = {
-			buildings = {
-				air_base = 3
-
-			}
-
-		}
+		add_core_of = UKR
 
 	}
-
+	
 	provinces={
-		3521 3559 6484 9521 9544 11399 
+		466 6522 
 	}
-	manpower=2464600
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
 }

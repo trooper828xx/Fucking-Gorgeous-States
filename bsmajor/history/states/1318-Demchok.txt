@@ -1,8 +1,7 @@
-
 state={
-	id=1188
-	name="STATE_1188"
-
+	id=1318
+	name="STATE_1318"
+	
 	history={
 		owner = RAJ
 		buildings = {
@@ -11,13 +10,14 @@ state={
 		}
 		add_core_of = RAJ
 		add_core_of = PAK
+		add_core_of = TIB
 
 	}
-
+	
 	provinces={
-		10821 
+		13402 
 	}
-	manpower=635421
+	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category = wasteland
 }
