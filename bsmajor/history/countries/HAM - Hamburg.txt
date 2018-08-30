@@ -56,13 +56,12 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ernst Toller"
-	desc = ""
-	picture = "Portrait_Bavaria_Ernst.dds"
-	expire = "1960.1.1"
+	name = "Kipmans"
+	desc = "POLITICS_KIPMANS_DESC"
+	picture = "kipmans.dds"
+	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
-		
 	}
 }
 
