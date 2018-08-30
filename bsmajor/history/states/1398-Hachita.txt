@@ -1,0 +1,20 @@
+
+state={
+	id=1398
+	name="STATE_1398"
+	manpower = 1
+	
+	state_category = rural
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		13425 
+	}
+}

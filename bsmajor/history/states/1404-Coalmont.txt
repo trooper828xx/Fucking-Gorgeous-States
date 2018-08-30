@@ -1,0 +1,21 @@
+state={
+	id=1404
+	name="STATE_1404"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		13439
+	}
+	manpower=3
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,6 +1,6 @@
 state={
 	id=1161
-	name="STATE_1161"
+	name="STATE_1161" #Pueblo
 
 	history={
 		owner = USA
@@ -13,7 +13,7 @@ state={
 	}
 
 	provinces={
-		868 1738 12627 
+		1738 12627 
 	}
 	manpower=183613
 	buildings_max_level_factor=1.000
