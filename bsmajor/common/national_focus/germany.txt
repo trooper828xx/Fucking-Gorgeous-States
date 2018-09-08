@@ -2730,6 +2730,15 @@ focus_tree = {
 			768 = { is_demilitarized_zone = no }
 			770 = { is_demilitarized_zone = no }
 			772 = { is_demilitarized_zone = no }
+			1359 = { is_demilitarized_zone = no }
+			1336 = { is_demilitarized_zone = no }
+			1415 = { is_demilitarized_zone = no }
+			1337 = { is_demilitarized_zone = no } #MLG
+			1117 = { is_demilitarized_zone = no }
+			1338 = { is_demilitarized_zone = no }
+			1339 = { is_demilitarized_zone = no }
+			1352 = { is_demilitarized_zone = no }
+			1340 = { is_demilitarized_zone = no }
 		}
 		ai_will_do = {
 			factor = 10
@@ -2742,7 +2751,15 @@ focus_tree = {
 			768 = { set_demilitarized_zone = no }
 			770 = { set_demilitarized_zone = no }
 			772 = { set_demilitarized_zone = no }
-
+			1359 = { set_demilitarized_zone = no }
+			1336 = { set_demilitarized_zone = no }
+			1415 = { set_demilitarized_zone = no }
+			1337 = { set_demilitarized_zone = no } #MLG
+			1117 = { set_demilitarized_zone = no }
+			1338 = { set_demilitarized_zone = no }
+			1339 = { set_demilitarized_zone = no }
+			1352 = { set_demilitarized_zone = no }
+			1340 = { set_demilitarized_zone = no }
 			custom_effect_tooltip = GER_rhineland_ultimatum
 			add_political_power = 120
 			army_experience = 5
